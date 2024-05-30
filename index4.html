@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe | Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <img src="profile.jpg" alt="Sarveshvaran" class="profile-photo">
+        <h1>Hello, I'm Sarveshvaran Senthilkumar</h1>
+        <p>Full-stack web developer with a passion for creating interactive and responsive web applications.</p>
+    </section>
+    <section id="about" class="about-me">
+        <h2>About Me</h2>
+        <p>I'm a web developer based in Chennai with over 2 years of experience in creating dynamic and responsive web applications. I hold a degree in Computer Science from Amrita University.</p>
+        <h3>Education</h3>
+        <ul>
+            <li>B.tech in Computer Science, Amrita University, Year</li>
+        </ul>
+        <h3>Professional Experience</h3>
+        <ul>
+            <li>Web Developer at ABC Company (2022 - Present)</li>
+            <li>Front-end Developer at DEF Company (2020 - 2022)</li>
+        </ul>
+    </section>
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Name</h3>
+            <p>Description of the project. This project uses technologies like HTML, CSS, JavaScript, etc.</p>
+            <a href="https://github.com/yourusername/projectname" target="_blank">View on GitHub</a>
+        </div>
+        <!-- Repeat for other projects -->
+    </section>
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Python</li>
+            <!-- Add other skills -->
+        </ul>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div class="social-media">
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+            <!-- Add other social links -->
+        </div>
+    </section>
+</body>
+</html>
